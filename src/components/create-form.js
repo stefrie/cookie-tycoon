@@ -22,17 +22,17 @@ export default function CreateForm({ onCreate }) {
             <div id="fields">
 
                 <fieldset>
-                    <label htmlFor="min-customers">Minimum Customers per Hour</label>
+                    <label class="fieldlabel" htmlFor="min-customers">Minimum Customers per Hour</label>
                     <input type="number" name="min-customers" />
                 </fieldset>
 
                 <fieldset>
-                    <label htmlFor="max-customers">Maximum Customers per Hour</label>
+                    <label class="fieldlabel" htmlFor="max-customers">Maximum Customers per Hour</label>
                     <input type="number" name="max-customers" />
                 </fieldset>
 
                 <fieldset>
-                    <label htmlFor="avg-cookies">Average Cookies per Sale</label>
+                    <label class="fieldlabel" htmlFor="avg-cookies">Average Cookies per Sale</label>
                     <input type="number" name="avg-cookies" step=".1" />
                 </fieldset>
             </div>

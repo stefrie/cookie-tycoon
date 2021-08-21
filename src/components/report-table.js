@@ -6,7 +6,7 @@ export default function ReportTable(props) {
     const headers = ['Location', ...props.hours, 'Totals'];
 
     return (
-        <table>
+        <table class="center">
             <HeaderRow headerValues={headers} />
 
             <tbody>
