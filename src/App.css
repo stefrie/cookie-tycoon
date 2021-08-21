@@ -1,0 +1,93 @@
+body {
+	background-color: #363033;
+	color: #d7dbea;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+	color: #231A1d;
+	font-family: 'Playfair Display', serif;
+	background-color: #998da0;
+}
+
+h1 {
+	padding: 20px;
+	text-align: center;
+	background-color: #f9f1f6;
+}
+
+legend {
+	font-size: 24px;
+	font-weight: bolder;
+	color: #231a1d;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#location {
+	padding: 20px;
+	text-align: center;
+}
+
+#loctext {
+	padding-right: 10px;
+}
+
+#root {
+	background-color: #998da0;
+}
+
+input {
+	color: #363033;
+}
+
+main {
+	background-color: #f9f1f6;
+	color: #231a1d;
+	margin: 20px;
+}
+
+#fields {
+	display: flex;
+	
+}
+
+fieldset {
+	text-align: center;
+	font-weight: bolder;
+	padding: 10px;
+}
+
+fieldset.label {
+	padding: 10px;
+}
+
+footer {
+	color: #d7dbea;
+}
+
+#button {
+	display: flex;
+	background-color: #632c43;
+	color: #d7dbea;
+	padding: 10px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+table {
+	padding: 10px;
+	text-align: center;
+}
+
+th, td {
+	border: 1px solid black;
+	min-width: 40px;
+	align-items: center;
+}
+
+tr:nth-child(even) {
+	background-color: #edd4e4;
+}

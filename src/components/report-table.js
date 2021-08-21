@@ -1,7 +1,7 @@
 export default function ReportTable(props) {
 
     if (props.reports.length === 0) {
-        return <h2>No Cookie Stands Available</h2>
+        return <h2>No Cookie Stands Available</h2>;
     }
     const headers = ['Location', ...props.hours, 'Totals'];
 

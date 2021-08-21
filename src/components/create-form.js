@@ -14,12 +14,12 @@ export default function CreateForm({ onCreate }) {
 
             <legend>Create Cookie Stand</legend>
 
-            <div>
-                <label htmlFor="location">Location</label>
+            <div id="location">
+                <label id="loctext" htmlFor="location">Location</label>
                 <input type="text" name="location" />
             </div>
 
-            <div>
+            <div id="fields">
 
                 <fieldset>
                     <label htmlFor="min-customers">Minimum Customers per Hour</label>
@@ -35,9 +35,10 @@ export default function CreateForm({ onCreate }) {
                     <label htmlFor="avg-cookies">Average Cookies per Sale</label>
                     <input type="number" name="avg-cookies" step=".1" />
                 </fieldset>
-                <button type="submit">Create</button>
             </div>
-
+			<div id="button">
+				<button id="button" type="submit">Create</button>
+			</div>
         </form>
-    )
+    );
 }

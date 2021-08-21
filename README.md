@@ -4,9 +4,9 @@ What good is being a Cookie Stand Tycoon if you've got no style?
 
 ## Overview
 
-The previous web designer's side hussle just got bought out and they've decided to moved on before completing project.
+The previous web designer's side hustle just got bought out and they've decided to moved on before completing the project.
 
-The dreams of a well designed cookie stand administration site are crumbling!
+The dreams of a well-designed cookie stand administration site are crumbling!
 
 The current site is functional but completely unstyled.
 
@@ -16,7 +16,7 @@ Do you think you have what it takes to get something serviceable whipped up this
 
 The requirements are pretty loose. It just needs to look awesome, or at least pretty ok.
 
-Here's a general idea, but please add as much pizzazz as you see fit.
+Here's a general idea, but please add as much pizazz as you see fit.
 
 ![Cookie Stand Admin](./cookie-stand-admin.jpg)
 
@@ -53,4 +53,3 @@ _Your repository must include the following config files:_
     - A question within the context of today's lab assignment
     - An observation about the lab assignment, or related 'Ah-hah!' moment
     - How long you spent working on this assignment
-  
